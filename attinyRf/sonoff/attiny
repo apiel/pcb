@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 6000.00mil 5000.00mil]
 
-Grid[100.00mil 0.0000 0.0000 1]
+Grid[0.10mil 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[10.00mil 10.00mil 10.00mil 10.00mil 15.00mil 10.00mil]
@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "100.00mil")
+Attribute("PCB::grid::size" "0.10mil")
 Via[3800.00mil 1600.00mil 90.00mil 20.00mil 0.0000 4.00mil "" ""]
 Via[3800.00mil 1700.00mil 90.00mil 20.00mil 0.0000 4.00mil "" ""]
 Via[3800.00mil 1800.00mil 90.00mil 20.00mil 0.0000 4.00mil "" ""]
@@ -808,13 +808,13 @@ Via[4000.00mil 2100.00mil 90.00mil 20.00mil 0.0000 4.00mil "" ""]
 Layer(1 "top" "copper")
 (
 	Text[4160.00mil 2370.00mil 0 100 "3.3" "clearline"]
-	Text[4140.00mil 1770.00mil 0 100 "Tx" "clearline"]
-	Text[4120.00mil 1570.00mil 0 100 "3.3v" "clearline"]
-	Text[4140.00mil 1670.00mil 0 100 "Rx" "clearline"]
-	Text[4120.00mil 1870.00mil 0 100 "Gnd" "clearline"]
 	Text[3680.00mil 1870.00mil 0 100 "Tx" "clearline"]
 	Text[3580.00mil 2070.00mil 0 100 "Data" "clearline"]
-	Text[4240.00mil 1980.00mil 0 100 "Data" "clearline"]
+	Text[4020.00mil 2370.00mil 0 100 "Gnd" "clearline"]
+	Text[4064.80mil 1670.00mil 0 100 "Rx" "clearline"]
+	Text[4077.30mil 1774.20mil 0 100 "Tx" "clearline"]
+	Text[3932.50mil 1482.50mil 0 100 "3.3v" "clearline"]
+	Text[4260.80mil 1980.00mil 0 100 "Data" "clearline,selected"]
 )
 Layer(2 "ground" "copper")
 (
@@ -835,9 +835,11 @@ Layer(6 "bottom" "copper")
 	Line[3900.00mil 1900.00mil 3800.00mil 1900.00mil 80.00mil 20.00mil "clearline"]
 	Line[3800.00mil 2100.00mil 4000.00mil 2100.00mil 80.00mil 20.00mil "clearline"]
 	Line[4000.00mil 2100.00mil 3900.00mil 2100.00mil 80.00mil 20.00mil "clearline"]
-	Line[4100.00mil 2200.00mil 4100.00mil 2300.00mil 80.00mil 20.00mil "clearline"]
-	Line[4200.00mil 2200.00mil 4200.00mil 2300.00mil 80.00mil 20.00mil "clearline"]
 	Line[4300.00mil 2300.00mil 4300.00mil 2100.00mil 80.00mil 20.00mil "clearline"]
+	Line[4000.00mil 1900.00mil 4100.00mil 1900.00mil 80.00mil 20.00mil "clearline"]
+	Line[4100.00mil 2300.00mil 4100.00mil 1900.00mil 80.00mil 20.00mil "clearline"]
+	Line[4000.00mil 1600.00mil 4200.00mil 1600.00mil 80.00mil 20.00mil "clearline"]
+	Line[4200.00mil 2300.00mil 4200.00mil 1600.00mil 80.00mil 20.00mil "clearline"]
 )
 Layer(7 "outline" "copper")
 (
